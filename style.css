@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  height: 120px;
+  width: 120px;
+}
+p {
+  color: rgb(233, 41, 233);
+  text-align: center;
+  font-size: 1.4rem;
+  width: 70%;
+  line-height: 1.9;
+  padding: 50px 300px;
+  margin-left: 300px;
+}
+
+/*porti section*/
+#porti {
+  background-image: url(images/Nomzamo\ Mabena.JPG);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+}
+
+#porti {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+  position: relative;
+  color: purple;
+}
+.press {
+  display: inline-block;
+  padding: 10px 30px;
+  color: plum;
+  background-color: transparent;
+  border: 3px solid plum;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+}
+.press:hover {
+  color: purple;
+  background-color: plum;
+}
